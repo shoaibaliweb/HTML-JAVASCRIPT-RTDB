@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+    <label for="" id="lblkey">
+
+    </label>
+    <fieldset>
+        <h1>
+            Navigation Items
+        </h1>
+        <p>
+            <label for="">Link Title</label>
+            <input type="text" name="" id="linkTitle">
+            <br>
+            Link
+            <input type="text" name="" id="link">
+            <br>
+            <input type="button" value="Save" id="btnsave">
+            <input type="button" value="Cencel" id="btncencal" style="visibility: hidden;">
+        </p>    
+    </fieldset>
+    <table width="100%" border="1px">
+        <thead>
+            <tr>
+                <th>
+                    Link Title
+                </th>
+                <th>
+                    Link
+                </th>
+                <th>
+                    Edit
+                </th>
+            </tr>
+        </thead>
+        <tbody id="tb">
+
+        </tbody>
+    </table>
+<fieldset>
+    <label for="" id="lblcardkey">
+
+    </label>
+
+    <h1>
+        Card Items
+    </h1>
+    <label for="">Card Title</label>
+    <input type="text" id="cardTitle">
+    <br>
+    <label for="">Card Rate</label>
+    <input type="text" id="rate">
+    <br>
+    <label for="">Select Picture</label>
+    <div id="pic">
+    <img src="" alt="" id="picid" style="width: 200px;">
+    <input type="file" id="cardimg">
+    <br>
+    </div>
+    <input type="button" value="Save" id="saveCard">
+    <input type="button" value="cancel" id="btnCancelCard" style="visibility: hidden;">
+</fieldset>
+<table width="100%" border="1px">
+    <thead>
+        <tr>
+            <th>
+                Card Title
+            </th>
+            <th>
+                Card  Rate
+            </th>
+            <th>
+                Edit
+            </th>
+        </tr>
+    </thead>
+</table>
+<script type="module" src="app.js"></script>
+
+</body>
+</html>
